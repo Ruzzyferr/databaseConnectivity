@@ -10,6 +10,7 @@ public interface DatabaseInfoMapper {
 
 
     DatabaseInfo toEntity (DatabaseInfoDto dto);
+    //check
 
     DatabaseInfoDto toDto (DatabaseInfo entity);
 
