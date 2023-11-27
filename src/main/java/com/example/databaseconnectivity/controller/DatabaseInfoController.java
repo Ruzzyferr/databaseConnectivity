@@ -1,8 +1,8 @@
-package com.example.databaseconnectivitybypostman.controller;
+package com.example.databaseconnectivity.controller;
 
-import com.example.databaseconnectivitybypostman.dto.DatabaseInfoDto;
-import com.example.databaseconnectivitybypostman.dto.DatabaseInfoSaveRequestDto;
-import com.example.databaseconnectivitybypostman.service.DatabaseService;
+import com.example.databaseconnectivity.dto.DatabaseInfoDto;
+import com.example.databaseconnectivity.dto.DatabaseInfoSaveRequestDto;
+import com.example.databaseconnectivity.service.DatabaseService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,10 +1,9 @@
-package com.example.databaseconnectivitybypostman.dto;
+package com.example.databaseconnectivity.dto;
 
 import lombok.Data;
 
 @Data
-public class DatabaseInfoSaveRequestDto {
-
+public class DatabaseInfoDto {
     private int id;
 
     private String host;

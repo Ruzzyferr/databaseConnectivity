@@ -1,10 +1,10 @@
-package com.example.databaseconnectivitybypostman.controller;
+package com.example.databaseconnectivity.controller;
 
-import com.example.databaseconnectivitybypostman.PostgreSQLConnection;
-import com.example.databaseconnectivitybypostman.Repository.DatabaseInfoRepository;
-import com.example.databaseconnectivitybypostman.dto.DatabaseQueryDto;
-import com.example.databaseconnectivitybypostman.dto.DatabaseInfoDto;
-import com.example.databaseconnectivitybypostman.mapper.DatabaseInfoMapper;
+import com.example.databaseconnectivity.PostgreSQLConnection;
+import com.example.databaseconnectivity.Repository.DatabaseInfoRepository;
+import com.example.databaseconnectivity.dto.DatabaseQueryDto;
+import com.example.databaseconnectivity.dto.DatabaseInfoDto;
+import com.example.databaseconnectivity.mapper.DatabaseInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

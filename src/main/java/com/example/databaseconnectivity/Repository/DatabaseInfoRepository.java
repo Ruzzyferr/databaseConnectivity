@@ -1,6 +1,6 @@
-package com.example.databaseconnectivitybypostman.Repository;
+package com.example.databaseconnectivity.Repository;
 
-import com.example.databaseconnectivitybypostman.entity.DatabaseInfo;
+import com.example.databaseconnectivity.entity.DatabaseInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

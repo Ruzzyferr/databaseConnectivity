@@ -1,10 +1,10 @@
-package com.example.databaseconnectivitybypostman.service;
+package com.example.databaseconnectivity.service;
 
-import com.example.databaseconnectivitybypostman.Repository.DatabaseInfoRepository;
-import com.example.databaseconnectivitybypostman.dto.DatabaseInfoDto;
-import com.example.databaseconnectivitybypostman.dto.DatabaseInfoSaveRequestDto;
-import com.example.databaseconnectivitybypostman.entity.DatabaseInfo;
-import com.example.databaseconnectivitybypostman.mapper.DatabaseInfoMapper;
+import com.example.databaseconnectivity.Repository.DatabaseInfoRepository;
+import com.example.databaseconnectivity.dto.DatabaseInfoDto;
+import com.example.databaseconnectivity.dto.DatabaseInfoSaveRequestDto;
+import com.example.databaseconnectivity.entity.DatabaseInfo;
+import com.example.databaseconnectivity.mapper.DatabaseInfoMapper;
 import org.springframework.stereotype.Service;
 
 @Service

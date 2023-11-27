@@ -1,4 +1,4 @@
-package com.example.databaseconnectivitybypostman;
+package com.example.databaseconnectivity;
 import org.postgresql.ds.PGSimpleDataSource;
 import javax.sql.DataSource;
 

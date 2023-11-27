@@ -1,4 +1,4 @@
-package com.example.databaseconnectivitybypostman;
+package com.example.databaseconnectivity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

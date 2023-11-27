@@ -1,7 +1,7 @@
-package com.example.databaseconnectivitybypostman.mapper;
-import com.example.databaseconnectivitybypostman.dto.DatabaseInfoDto;
-import com.example.databaseconnectivitybypostman.dto.DatabaseInfoSaveRequestDto;
-import com.example.databaseconnectivitybypostman.entity.DatabaseInfo;
+package com.example.databaseconnectivity.mapper;
+import com.example.databaseconnectivity.dto.DatabaseInfoDto;
+import com.example.databaseconnectivity.dto.DatabaseInfoSaveRequestDto;
+import com.example.databaseconnectivity.entity.DatabaseInfo;
 import org.mapstruct.Mapper;
 
 
@@ -10,8 +10,6 @@ public interface DatabaseInfoMapper {
 
 
     DatabaseInfo toEntity (DatabaseInfoDto dto);
-
-
 
     DatabaseInfoDto toDto (DatabaseInfo entity);
 

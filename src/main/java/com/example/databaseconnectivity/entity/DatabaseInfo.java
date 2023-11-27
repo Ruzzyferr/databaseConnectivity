@@ -1,4 +1,4 @@
-package com.example.databaseconnectivitybypostman.entity;
+package com.example.databaseconnectivity.entity;
 
 import lombok.Data;
 
