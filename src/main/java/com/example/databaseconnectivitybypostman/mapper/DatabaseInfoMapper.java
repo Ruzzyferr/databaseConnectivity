@@ -12,6 +12,7 @@ public interface DatabaseInfoMapper {
     DatabaseInfo toEntity (DatabaseInfoDto dto);
 
 
+
     DatabaseInfoDto toDto (DatabaseInfo entity);
 
     DatabaseInfo toEntityFromSaveRequestDto (DatabaseInfoSaveRequestDto dto);
