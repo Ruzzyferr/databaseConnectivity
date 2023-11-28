@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Data
 @Entity
 @Table(name = "UserDatabaseInfo")
-public class DatabaseInfo {
+public class UrlInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

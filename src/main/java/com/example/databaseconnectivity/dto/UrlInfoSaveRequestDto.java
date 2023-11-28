@@ -3,7 +3,8 @@ package com.example.databaseconnectivity.dto;
 import lombok.Data;
 
 @Data
-public class DatabaseInfoDto {
+public class UrlInfoSaveRequestDto {
+
     private int id;
 
     private String host;

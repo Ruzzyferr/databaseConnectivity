@@ -7,5 +7,6 @@ public class DatabaseQueryDto {
 
     int id;
     String query;
+    Boolean createReport = false;
 
 }

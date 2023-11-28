@@ -1,30 +1,30 @@
 package com.example.databaseconnectivity.service;
 
-import com.example.databaseconnectivity.Repository.DatabaseInfoRepository;
-import com.example.databaseconnectivity.dto.DatabaseInfoDto;
-import com.example.databaseconnectivity.dto.DatabaseInfoSaveRequestDto;
-import com.example.databaseconnectivity.entity.DatabaseInfo;
-import com.example.databaseconnectivity.mapper.DatabaseInfoMapper;
+import com.example.databaseconnectivity.Repository.UrlInfoRepository;
+import com.example.databaseconnectivity.dto.UrlInfoDto;
+import com.example.databaseconnectivity.dto.UrlInfoSaveRequestDto;
+import com.example.databaseconnectivity.entity.UrlInfo;
+import com.example.databaseconnectivity.mapper.UrlInfoMapper;
 import org.springframework.stereotype.Service;
 
 @Service
 public class DatabaseService {
 
-    private final DatabaseInfoMapper databaseInfoMapper;
-    private final DatabaseInfoRepository databaseInfoRepository;
+    private final UrlInfoMapper urlInfoMapper;
+    private final UrlInfoRepository urlInfoRepository;
 
-    public DatabaseService(DatabaseInfoMapper databaseInfoMapper, DatabaseInfoRepository databaseInfoRepository) {
-        this.databaseInfoMapper = databaseInfoMapper;
-        this.databaseInfoRepository = databaseInfoRepository;
+    public DatabaseService(UrlInfoMapper urlInfoMapper, UrlInfoRepository urlInfoRepository) {
+        this.urlInfoMapper = urlInfoMapper;
+        this.urlInfoRepository = urlInfoRepository;
     }
 
 
-    public DatabaseInfoDto save(DatabaseInfoSaveRequestDto dto) {
-        DatabaseInfo databaseInfo = databaseInfoMapper.toEntityFromSaveRequestDto(dto);
-        DatabaseInfoDto databaseInfoDto = databaseInfoMapper.toDto(databaseInfoRepository.save(databaseInfo));
+    public UrlInfoDto save(UrlInfoSaveRequestDto dto) {
+        UrlInfo urlInfo = urlInfoMapper.toEntityFromSaveRequestDto(dto);
+        UrlInfoDto urlInfoDto = urlInfoMapper.toDto(urlInfoRepository.save(urlInfo));
 
 
 
-        return databaseInfoDto;
+        return urlInfoDto;
     }
 }
